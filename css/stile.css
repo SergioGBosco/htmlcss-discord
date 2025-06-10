@@ -12,20 +12,23 @@
   align-items: center;
 }
 
-.container,
-.container-sm {
+.container {
   height: 400px;
 }
 
 .container-sm {
-  max-width: 900px;
+  max-width: 600px;
   margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
 
 }
 
 .bg-img {
   background-image: url(../img/jumbo.png);
   background-size: cover;
+  background-position: center;
 }
 
 /* Utility */
@@ -59,7 +62,12 @@
 }
 
 .pyt-20 {
-  padding-top: 20px 0;
+  padding-top: 20px;
+}
+
+.py-50-20 {
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .border-dotted {
@@ -69,6 +77,11 @@
 .border-dotted-w {
   border: 1px dotted white;
 }
+
+.text-center {
+  text-align: center;
+}
+
 
 /* Header */
 
@@ -99,7 +112,6 @@ a {
 .space-between {
   justify-content: space-between;
 }
-
 
 
 /* Colori Sfondo */
@@ -135,7 +147,7 @@ a {
   background-color: green;
 }
 
-.black {
+.bg-black {
   background-color: black;
 }
 
@@ -145,6 +157,10 @@ a {
 
 .trasperent {
   background-color: transparent;
+}
+
+.white {
+  color: white;
 }
 
 .
