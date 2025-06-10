@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container,
+.container-banner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.container,
+.container-sm {
+  height: 400px;
+}
+
+.container-sm {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Utility */
+
+.mr-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.py-20 {
+  padding: 20px 0;
+}
+
+.py-10 {
+  padding: 10px 0;
+}
+
+.py5-20 {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.h-800 {
+  height: 800px;
+}
+
+.pyt-20 {
+  padding-top: 20px 0;
+}
+
+.border-dotted {
+  border: 1px dotted black;
+}
+
+.border-dotted-w {
+  border: 1px dotted white;
+}
+
+/* Header */
+
+nav {
+  padding: 4px 300px;
+}
+
+header {
+  padding: 8px;
+}
+
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  padding: 5px;
+  text-decoration: none;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+
+
+/* Colori Sfondo */
+.lightblue {
+  background-color: #ADD8E7;
+}
+
+.yellow {
+  background-color: #DAA51E;
+}
+
+.pink {
+  background-color: #ef82ed;
+}
+
+.blue {
+  background-color: #00018b;
+}
+
+.lightpink {
+  background-color: #ffc0ca;
+}
+
+.heavenly {
+  background-color: #1e90ff;
+}
+
+.lightgrey {
+  background-color: grey;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+.lightheavenly {
+  background-color: #20b3aa;
+}
+
+
+
+/* Colonne */
+
+.col-35 {
+  width: 35%;
+}
+
+.col-65 {
+  width: 65%;
+}
+
+.col-15 {
+  width: 15%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+/* Footer */
+
+hr {
+  margin-bottom: 20px;
+}
