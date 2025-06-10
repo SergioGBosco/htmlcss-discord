@@ -36,9 +36,8 @@
 }
 
 .button {
-  padding: 10px;
+  padding: 8px;
   border-radius: 30px;
-  background-color: white;
 }
 
 .mr-20 {
@@ -76,12 +75,23 @@
   border: 1px dotted black;
 }
 
+.border-trasparent {
+  border: 1px solid transparent;
+}
+
 .border-dotted-w {
   border: 1px dotted white;
 }
 
 .text-center {
   text-align: center;
+}
+
+strong {
+  padding-bottom: 15px;
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 
@@ -161,8 +171,16 @@ a {
   background-color: transparent;
 }
 
+.bg-white {
+  background-color: white;
+}
+
 .white {
   color: white;
+}
+
+.bg-lightgrey {
+  background-color: #8ea1e2;
 }
 
 .
