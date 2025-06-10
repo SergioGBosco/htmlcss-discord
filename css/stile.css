@@ -40,13 +40,9 @@
   border-radius: 30px;
 }
 
-.mr-20 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
 .py-20 {
-  padding: 20px 0;
+  padding: 70px 0;
 }
 
 .py-10 {
@@ -58,10 +54,6 @@
   padding-bottom: 20px;
 }
 
-.h-800 {
-  height: 800px;
-}
-
 .pyt-20 {
   padding-top: 20px;
 }
@@ -71,16 +63,8 @@
   padding-bottom: 20px;
 }
 
-.border-dotted {
-  border: 1px dotted black;
-}
-
 .border-trasparent {
   border: 1px solid transparent;
-}
-
-.border-dotted-w {
-  border: 1px dotted white;
 }
 
 .text-center {
@@ -105,9 +89,11 @@ header {
   padding: 8px;
 }
 
+.flex {
+  display: flex;
+}
 
 ul {
-  display: flex;
   list-style: none;
 }
 
@@ -131,40 +117,17 @@ a {
   background-color: #ADD8E7;
 }
 
-.yellow {
-  background-color: #DAA51E;
-}
-
-.pink {
-  background-color: #ef82ed;
-}
-
 .blue {
   background-color: #3160e0;
 }
 
-.lightpink {
-  background-color: #ffc0ca;
-}
-
-.heavenly {
-  background-color: #1e90ff;
-}
 
 .lightgrey {
   background-color: grey;
 }
 
-.green {
-  background-color: green;
-}
-
 .bg-black {
   background-color: black;
-}
-
-.lightheavenly {
-  background-color: #20b3aa;
 }
 
 .trasperent {
@@ -204,6 +167,11 @@ a {
 
 /* Footer */
 
-hr {
-  margin-bottom: 20px;
+h5,
+h6 {
+  color: white;
+}
+
+li i {
+  padding: 0 5px;
 }
