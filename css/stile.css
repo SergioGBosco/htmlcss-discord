@@ -12,10 +12,6 @@
   align-items: center;
 }
 
-.container {
-  height: 400px;
-}
-
 .container-sm {
   max-width: 600px;
   margin: 0 auto;
@@ -25,13 +21,19 @@
 
 }
 
-.bg-img {
+/* Background immagini */
+
+.bg-img-j {
   background-image: url(../img/jumbo.png);
   background-size: cover;
   background-position: center;
 }
 
 /* Utility */
+
+.column {
+  flex-direction: column;
+}
 
 .button {
   padding: 10px;
